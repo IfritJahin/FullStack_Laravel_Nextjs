@@ -1,11 +1,10 @@
-import Image from "next/image";
 import TasksPage from "./components/TasksPage";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <TasksPage/>
+    <div className="min-h-screen bg-[radial-gradient(circle_at_top,_#f8fafc_0%,_#eef2ff_35%,_#f8fafc_100%)] px-4 py-10 text-slate-900 sm:px-6 lg:px-8">
+      <main className="mx-auto w-full max-w-6xl">
+        <TasksPage />
       </main>
     </div>
   );
